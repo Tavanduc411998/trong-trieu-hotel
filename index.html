@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Hotel</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- End CSS -->
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Noto+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- End Font -->
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" alt="#" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="show-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#room">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Rooms
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Single room</a>
+                            <a class="dropdown-item" href="#">Double room</a>
+                            <a class="dropdown-item" href="#">Twin room</a>
+                            <a class="dropdown-item" href="#">Queen room</a>
+                            <a class="dropdown-item" href="#">King room</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contacts</a>
+                    </li>
+                    <li class="nav-item book d-flex align-items-center">
+                        <a class="nav-link" href="#">book now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Banner -->
+    <header id="home">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-lg-4 col-12 lobster-font-family d-flex align-items-center">
+                    <h2>It is a long established fact that a reader will be distracted by the readablen</h2>
+                    <button><a href="#">Book now</a></button>
+                </div>
+            </div>
+            <div class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center">
+                <div id="headerslider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="header-video">
+                            <video src="images/video/videophúquốcmp4.mp4" controls autoplay muted>
+                                <source src="movie.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="st-rec"></div>
+        <div class="rd-rec"></div>
+    </header>
+    <!-- End Banner -->
+
+    <!-- About Us and Rooms -->
+    <div class="about lobster-font-family">
+        <div class="container">
+            <h2 class="text-center text-capitalize">welcome to Hotel</h2>
+            <img src="imgs/shape.png">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <h4>Terracotta Hotel</h4>
+                    <p>Khu nghỉ dưỡng Terracotta Đà Lạt rộng hơn 17 hecta, toạ lạc trên bán đảo ven hồ Tuyền Lâm, cách
+                        trung tâm Đà Lạt 6km, gồm 240 phòng nghỉ và 90 căn biệt thự bên hồ với tổng thể kiến trúc đậm
+                        nét đương đại hoà trong không gian lãng mạn của rừng thông, mây núi ở vùng thiên nhiên quanh năm
+                        khí hậu ôn hoà bậc nhất Việt Nam. Mỗi căn biệt thự gồm 3 - 5 phòng ngủ, phòng khách, phòng ...
+                    </p>
+                    <button><a href="#">Read more</a></button>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="img">
+                        <img class="about-img" src="/images/couple/z4250954427729_6a1d5606072734a30bac781e9d5fc3e7.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room and Suits -->
+            <h2 class="text-capitalize" id="room">rooms & suits</h2>
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="img">
+                        <img class="room-img" src="/images/group/z4250953739934_b2d36b28ee324ca49c2fa8e50e7092e1.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <div class="block">
+                        <div>
+                            <img src="imgs/shape.png">
+                            <strong>$405</strong>
+                            <h5>luxury rooms</h5>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters,</p>
+                            <button><a href="#" class="text-capitalize">Read more</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Us and Rooms -->
+
+    <!-- Gallery -->
+    <div class="gallery lobster-font-family" id="blog">
+        <div class="container">
+            <h2 class="text-calitalize text-center">Our gallery</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pic-one">
+                        <h4>Friend</h4>
+                    </div>
+                    <div class="pic-two">
+                        <h4>Relax</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pic-three active">
+                        <h4>Dating</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pic-four">
+                        <h4>Amusement park</h4>
+                    </div>
+                    <div class="pic-five">
+                        <h4 class="bg-light">Festival</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+
+    <!-- Feedback -->
+    <div class="slider main-font-family">
+        <h2 class="text-center text-capitalize main-font-family">what our clients say</h2>
+        <div id="slideToNext" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slideToNext" data-slide-to="0" class="active"></li>
+                <li data-target="#slideToNext" data-slide-to="1"></li>
+                <li data-target="#slideToNext" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-block">
+                        <img src="imgs/pic7.png">
+                        <h5>jone due</h5>
+                        <p>It is a long established fact that a reader wil
+                            l be distracted by the readable content of a page when looking at its layout. The point of
+                            using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-block">
+                        <img src="imgs/pic7.png">
+                        <h5>jone due</h5>
+                        <p>It is a long established fact that a reader wil
+                            l be distracted by the readable content of a page when looking at its layout. The point of
+                            using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-block">
+                        <img src="imgs/pic7.png">
+                        <h5>jone due</h5>
+                        <p>It is a long established fact that a reader wil
+                            l be distracted by the readable content of a page when looking at its layout. The point of
+                            using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Feedback -->
+
+    <!-- Booking -->
+    <div class="contact main-font-family text-center">
+        <div class="container">
+            <h2 id="contact">Booking</h2>
+            <div class="row">
+                <div class="col-6">
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Phone">
+                            <textarea placeholder="Message"></textarea>
+                            <input type="submit" value="submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h2 class="text-right">Book Your Holiday Best for relaxed retreats and cultural encounters</h2>
+                    <img src="imgs/shape.png">
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <!-- End Booking -->
+
+    <footer class="noto-font-family">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 form">
+                        <h3>Thông tin liên hệ</h3>
+                        <p>Healing Center, 176 W Street name,<br>
+                            New York, NY 10014, US<br>
+                            (+71) 987 654 3210<br>
+                            (+71) 987 654 3210<br>
+                            fivehotel@gmail.com
+                        </p>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <h3>Trang chủ</h3>
+                        <ul class="text-capitalize">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Rooms</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <h3>Du lịch Phú Quốc</h3>
+                        <ul class="text-capitalize">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Rooms</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright noto-font-family">
+        <p>© All Rights Reserved. Hotel Phú Quốc - Design by FPT Software</p>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+
+            'use strict';
+
+            var winH = $(window).height();
+
+            $('header').height(winH);
+
+            $('.navbar ul.navbar-nav li a').on('click', function (e) {
+
+                var getAttr = $(this).attr('href');
+
+                e.preventDefault();
+                $('html').animate({ scrollTop: $(getAttr).offset().top }, 1000);
+            });
+        });
+    </script>
+</body>
+
+</html>
